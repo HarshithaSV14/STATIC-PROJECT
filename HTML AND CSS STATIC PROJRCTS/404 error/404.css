@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+
+  body {
+    background-color: #062e39;
+    color: #ffffff;
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    padding: 2rem;
+  }
+
+  h1 {
+    font-size: 6rem;
+    color: #4c55ff;
+    margin-bottom: 0.5rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  p {
+    color: #bbbbbb;
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+  }
+
+  a {
+    text-decoration: none;
+    background-color:#4c55ff ;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+  }
+
+  a:hover {
+    background-color: #e84343;
+  }
+
+  .glitch {
+    font-size: 6rem;
+    position: relative;
+    animation: glitch 1s infinite;
+  }
+
+  @keyframes glitch {
+    0% {
+      text-shadow: 2px 2px red, -2px -2px blue;
+    }
+    25% {
+      text-shadow: -2px 2px red, 2px -2px blue;
+    }
+    50% {
+      text-shadow: 2px -2px red, -2px 2px blue;
+    }
+    75% {
+      text-shadow: -2px -2px red, 2px 2px blue;
+    }
+    100% {
+      text-shadow: 2px 2px red, -2px -2px blue;
+    }
+  }
+

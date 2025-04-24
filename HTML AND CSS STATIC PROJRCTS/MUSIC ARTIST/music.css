@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+  }
+
+  body {
+    background-color: #062f3a;
+    color: #fff;
+    line-height: 1.6;
+  }
+
+  header {
+    background: url('https://images.unsplash.com/photo-1511376777868-611b54f68947') center/cover no-repeat;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  header h1 {
+    font-size: 3rem;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+  }
+
+  header p {
+    font-size: 1.2rem;
+    color: #ccc;
+    margin-top: 10px;
+  }
+
+  nav {
+    background-color: #f31111;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+  }
+
+  nav a {
+    color: #f8f5f5;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+
+  nav a:hover {
+    color: #ff6a00;
+  }
+
+  section {
+    padding: 4rem 2rem;
+    max-width: 1000px;
+    margin: auto;
+  }
+
+  .bio {
+    text-align: center;
+  }
+
+  .albums {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+
+  .album {
+    background-color: #400642;
+    padding: 1rem;
+    border-radius: 8px;
+    transition: transform 0.3s;
+  }
+
+  .album img {
+    width: 100%;
+    border-radius: 6px;
+  }
+
+  .album h3 {
+    margin-top: 1rem;
+    font-size: 1.1rem;
+  }
+
+  .tour-dates {
+    text-align: center;
+  }
+
+  .tour-list {
+    margin-top: 2rem;
+  }
+
+  .tour-item {
+    background: #273a03;
+    padding: 1rem;
+    border-radius: 6px;
+    margin-bottom: 1rem;
+  }
+
+  footer {
+    background-color: #111;
+    color: #777;
+    text-align: center;
+    padding: 2rem 1rem;
+    margin-top: 4rem;
+  }
